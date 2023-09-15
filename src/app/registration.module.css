@@ -1,0 +1,74 @@
+.mainRegistration {
+    width: 100%;
+    background-color: #181818;
+    height: 100vh;
+}
+
+.RegistrationComponent {
+    margin: auto;
+    width: 400px;
+    padding-top: 10%;
+}
+.RegistrationComponent form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 400px;
+    height: 600px;
+}
+.RegistrationComponentContainer {
+   padding-left: 40px;
+   margin-top: 80px;
+   
+    
+}
+.RegistrationComponentFlex {
+    padding: 18px 0;
+}
+.RegistrationComponentFlex input {
+    border: none;
+    outline: none;
+    border-bottom: 2px #696868 solid;
+    width: 80%;
+}
+.RegistrationComponentBTN{
+    margin: auto;
+    width: 100px;
+}
+.RegistrationComponentBTN button{
+    padding: 8px 17px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.RegistrationComponentBTN button:hover{
+    background-color: #0056b3;
+}
+.RegistrationComponentToSginin{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.RegistrationComponentHeader{
+    width: 110%;
+    margin-left: -20px;
+    height: 80px;
+    background-color: #0056b3;
+    box-shadow: #012f61  0px 10px 20px ;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7%;
+}
+.RegistrationComponentFooter{
+    width: 100%;
+    height: 50px;
+    background-color: #0056b3;
+}

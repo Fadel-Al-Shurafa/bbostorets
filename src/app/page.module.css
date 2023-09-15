@@ -1,0 +1,120 @@
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .headerFlex h4{
+    padding-right: 40px;
+   }
+  
+  .flexItems {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+  }
+  .flexItems h4{
+    color: #000;
+    text-decoration-line: none;
+  
+  }
+  
+  /* Main */
+  .main {
+    width: 100%;
+    
+  }
+  /* main Background */
+  .mainBackground {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    height: 600px;
+  }
+  .mainFlex h1, .mainFlex h2{
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .mainSBlink {
+  text-align: center;
+  margin-top: 30px;
+  }
+  .start {
+    background-color: #15B238;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+  .start:hover {
+    opacity: 0.7;
+  }
+  .buy {
+    background-color: #D0092D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+  .buy:hover {
+    opacity: 0.7;
+  }
+  
+  /* Main About us */
+  
+  .about {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    height: 600px;
+  }
+  
+  .aboutFlex {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .aboutFlex p{
+    margin: auto;
+    width: 60%;
+  }
+  
+  /* What can i do */
+  
+  .whatcanido {
+    background-color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 6rem;
+    height: 500px;
+  }
+  .whatcanidoContainerFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatcanidoFlex {
+    padding: 20px 0;
+  }
+  .whatcanidoFlex p{
+    width: 60%;
+    margin: auto;
+  }
